@@ -1,235 +1,69 @@
 {
   "version": "1.0",
-  "generated_at": "2025-10-18T18:20:24.402934",
+  "generated_at": "2025-12-02T16:50:00.000000",
   "categories": [
     {
-      "id": "architecture",
-      "name": "Architecture",
+      "id": "elev-hotels",
+      "name": "Hotels",
       "projects": [
         {
-          "id": "arch-001",
-          "name": "Desert Pavilion",
-          "thumbnail": "https://picsum.photos/id/237/600/400",
-          "cover_alt": "Exterior view of Desert Pavilion at sunset",
+          "id": "elev-hotels-001",
+          "name": "Le Royal Hotel",
+          "thumbnail": "assets/images/projects/page_003_img_1.jpeg",
+          "cover_alt": "Photo of Le Royal Hotel",
           "gallery": [
-            "https://picsum.photos/id/237/600/400",
-            "https://picsum.photos/id/238/600/400",
-            "https://picsum.photos/id/241/600/400"
+            "assets/images/projects/page_003_img_1.jpeg"
           ],
           "details": {
-            "title": "Desert Pavilion – Adaptive Shade Structure",
-            "date": "2025-06-14",
-            "location": "Wadi Rum, Jordan",
-            "steps": [
-              "Site survey and solar path analysis",
-              "Concept development and parametric modeling",
-              "Material selection and mock-up fabrication",
-              "On-site assembly and commissioning"
-            ],
-            "description": "A lightweight, modular pavilion designed for arid climates. The structure uses parametrically optimized panels to maximize shade and airflow while minimizing material use.",
-            "tags": [
-              "sustainable",
-              "parametric",
-              "outdoor"
-            ],
-            "links": {
-              "website": "https://example.com/projects/desert-pavilion",
-              "video": "https://example.com/videos/desert-pavilion.mp4"
-            }
-          }
-        },
-        {
-          "id": "arch-002",
-          "name": "Urban Atrium",
-          "thumbnail": "https://picsum.photos/id/238/600/400",
-          "cover_alt": "Interior daylight in Urban Atrium",
-          "gallery": [
-            "https://picsum.photos/id/241/600/400",
-            "https://picsum.photos/id/237/600/400"
-          ],
-          "details": {
-            "title": "Urban Atrium – Daylight Retrofit",
-            "date": "2024-12-03",
-            "location": "Amman, Jordan",
-            "steps": [
-              "Daylight simulation and glare control design",
-              "Structural analysis and permit approval",
-              "Phased construction to maintain building operation",
-              "Post-occupancy evaluation"
-            ],
-            "description": "Atrium retrofit to improve daylight autonomy by 35% with dynamic louvers and high-transmittance glazing.",
-            "tags": [
-              "retrofit",
-              "daylighting"
-            ],
-            "links": {
-              "website": "https://example.com/projects/urban-atrium"
-            }
-          }
-        }
-      ]
-    },
-    {
-      "id": "software",
-      "name": "Software",
-      "projects": [
-        {
-          "id": "soft-001",
-          "name": "Lava Café CRM",
-          "thumbnail": "https://picsum.photos/id/241/600/400",
-          "cover_alt": "Admin dashboard of Lava Café CRM",
-          "gallery": [
-            "https://picsum.photos/id/237/600/400",
-            "https://picsum.photos/id/240/600/400",
-            "https://picsum.photos/id/238/600/400"
-          ],
-          "details": {
-            "title": "Lava Café – Admin CRM",
-            "date": "2025-08-22",
-            "location": "Remote",
-            "steps": [
-              "Requirements gathering with stakeholders",
-              "Design system & wireframing",
-              "Feature development (inventory, approvals, barcode intake)",
-              "QA, UAT, and production deployment"
-            ],
-            "description": "A web-based CRM for product management and purchase approval with barcode popup entry and preloaded sample requests.",
-            "tags": [
-              "web",
-              "admin",
-              "crm"
-            ],
-            "links": {
-              "website": "https://example.com/projects/lava-crm",
-              "repo": "https://example.com/repos/lava-crm"
-            }
-          }
-        },
-        {
-          "id": "soft-002",
-          "name": "X-Ray Detection",
-          "thumbnail": "https://picsum.photos/id/240/600/400",
-          "cover_alt": "Model detects prohibited items in X-ray imagery",
-          "gallery": [
-            "https://picsum.photos/id/240/600/400",
-            "https://picsum.photos/id/238/600/400"
-          ],
-          "details": {
-            "title": "YOLOv11-Based Prohibited Item Detection",
-            "date": "2025-01-15",
-            "location": "Amman, Jordan",
-            "steps": [
-              "Dataset curation and labeling",
-              "Model training and evaluation",
-              "Deployment to inference API",
-              "Monitoring and iterative improvement"
-            ],
-            "description": "Real-time detection of prohibited items in airport X-ray images using a customized YOLOv11 pipeline.",
-            "tags": [
-              "computer-vision",
-              "security"
-            ],
-            "links": {
-              "website": "https://example.com/projects/xray-detection"
-            }
-          }
-        }
-      ]
-    },
-    {
-      "id": "events",
-      "name": "Events",
-      "projects": [
-        {
-          "id": "evt-001",
-          "name": "Elite Appreciation Week",
-          "thumbnail": "https://picsum.photos/id/238/600/400",
-          "cover_alt": "Celebration at hotel cafeteria",
-          "gallery": [
-            "https://picsum.photos/id/238/600/400",
-            "https://picsum.photos/id/241/600/400",
-            "https://picsum.photos/id/240/600/400"
-          ],
-          "details": {
-            "title": "Elite Appreciation Week Kickoff",
-            "date": "2025-10-13",
-            "location": "Amman Marriott Hotel, Jordan",
-            "steps": [
-              "Plan program and announcement",
-              "Coordinate contest with team leads",
-              "Cafeteria setup and catering",
-              "Run contest and capture feedback"
-            ],
-            "description": "A week-long celebration honoring loyal Bonvoy guests with activations, contests, and themed coffee breaks.",
-            "tags": [
-              "hospitality",
-              "activation"
-            ],
-            "links": {}
-          }
-        }
-      ]
-    },
-    {
-      "id": "elevators",
-      "name": "Elevators",
-      "projects": [
-        {
-          "id": "elev-001",
-          "name": "LeRoyal Hotel",
-          "thumbnail": "https://picsum.photos/id/115/600/400",
-          "cover_alt": "Elevator project – LeRoyal Hotel",
-          "gallery": [],
-          "details": {
-            "title": "LeRoyal Hotel",
+            "title": "Le Royal Hotel",
             "date": "2025-10-25",
             "location": "Amman, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference (Finland), Elevator speed up to 2.0 m/s. Origin: Finland | Elevators: 2 | Speed up to 2.0 m/s",
+            "description": "Vertical transportation reference. Origin: Finland. Elevators: 32. Floors (max): 30. Speed up to 4.0 m/s.",
             "tags": [
               "elevators",
+              "Hotel",
               "Finland"
             ],
             "links": {}
           }
         },
         {
-          "id": "elev-002",
-          "name": "Elevators 4",
-          "thumbnail": "https://picsum.photos/id/123/600/400",
-          "cover_alt": "Elevator project – Elevators 4",
-          "gallery": [],
+          "id": "elev-hotels-002",
+          "name": "Rotana Hotel Tower",
+          "thumbnail": "assets/images/projects/page_004_img_1.png",
+          "cover_alt": "Photo of Rotana Hotel Tower",
+          "gallery": [
+            "assets/images/projects/page_004_img_1.png"
+          ],
           "details": {
-            "title": "Elevators 4",
+            "title": "Rotana Hotel Tower",
             "date": "2025-10-25",
             "location": "Amman, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference (Italy), Elevator speed up to 1.6 m/s. Origin: Italy | Elevators: 2 | Speed up to 1.6 m/s",
+            "description": "Vertical transportation reference. Origin: China. Elevators: 15. Floors (max): 52. Speed up to 6.0 m/s.",
             "tags": [
               "elevators",
-              "Italy"
+              "Hotel",
+              "China"
             ],
             "links": {}
           }
-        }
-      ]
-    },
-    {
-      "id": "elev-hotels",
-      "name": "Elevators – Hotels",
-      "projects": [
+        },
         {
-          "id": "elev-hotels-001",
-          "name": "Le Royal Hotel",
-          "thumbnail": "https://picsum.photos/id/101/600/400",
-          "cover_alt": "Elevator reference – Le Royal Hotel",
-          "gallery": [],
+          "id": "elev-hotels-003",
+          "name": "Crowne Plaza Hotel",
+          "thumbnail": "assets/images/projects/page_005_img_1.png",
+          "cover_alt": "Photo of Crowne Plaza Hotel",
+          "gallery": [
+            "assets/images/projects/page_005_img_1.png"
+          ],
           "details": {
-            "title": "Le Royal Hotel",
+            "title": "Crowne Plaza Hotel",
             "date": "2025-10-25",
-            "location": "Amman, Jordan",
+            "location": "Dead Sea, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: Finland. Elevators: 32. Speed up to 4.0 m/s.",
+            "description": "Vertical transportation reference. Origin: Finland. Elevators: 22. Dumbwaiters: 2. Total VT units: 24. Speed up to 1.6 m/s.",
             "tags": [
               "elevators",
               "Hotel",
@@ -240,36 +74,39 @@
         },
         {
           "id": "elev-hotels-004",
-          "name": "Rotana Hotel Tower",
-          "thumbnail": "https://picsum.photos/id/104/600/400",
-          "cover_alt": "Elevator reference – Rotana Hotel Tower",
-          "gallery": [],
+          "name": "Double Tree by Hilton",
+          "thumbnail": "assets/images/projects/page_006_img_1.png",
+          "cover_alt": "Photo of Double Tree by Hilton",
+          "gallery": [
+            "assets/images/projects/page_006_img_1.png"
+          ],
           "details": {
-            "title": "Rotana Hotel Tower",
+            "title": "Double Tree by Hilton",
             "date": "2025-10-25",
-            "location": "Amman, Jordan",
+            "location": "Aqaba, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: China. Elevators: 15. Speed up to 6.0 m/s.",
+            "description": "Vertical transportation reference. Elevators: 7. Floors (max): 11. Speed up to 2.0 m/s.",
             "tags": [
               "elevators",
-              "Hotel",
-              "China"
+              "Hotel"
             ],
             "links": {}
           }
         },
         {
           "id": "elev-hotels-005",
-          "name": "Crowne Plaza Hotel",
-          "thumbnail": "https://picsum.photos/id/105/600/400",
-          "cover_alt": "Elevator reference – Crowne Plaza Hotel",
-          "gallery": [],
+          "name": "Kempinski Hotel",
+          "thumbnail": "assets/images/projects/page_007_img_1.png",
+          "cover_alt": "Photo of Kempinski Hotel",
+          "gallery": [
+            "assets/images/projects/page_007_img_1.png"
+          ],
           "details": {
-            "title": "Crowne Plaza Hotel",
+            "title": "Kempinski Hotel",
             "date": "2025-10-25",
-            "location": "Dead Sea, Jordan",
+            "location": "Amman, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: Finland. Elevators: 22.",
+            "description": "Vertical transportation reference. Origin: Finland. Elevators: 11. Dumbwaiters: 2. Escalators: 2. Total VT units: 15. Speed up to 2.0 m/s.",
             "tags": [
               "elevators",
               "Hotel",
@@ -280,89 +117,56 @@
         },
         {
           "id": "elev-hotels-006",
-          "name": "Double Tree by Hilton",
-          "thumbnail": "https://picsum.photos/id/106/600/400",
-          "cover_alt": "Elevator reference – Double Tree by Hilton",
-          "gallery": [],
+          "name": "Crowne Plaza Hotel",
+          "thumbnail": "assets/images/projects/page_008_img_1.jpeg",
+          "cover_alt": "Photo of Crowne Plaza Hotel",
+          "gallery": [
+            "assets/images/projects/page_008_img_1.jpeg"
+          ],
           "details": {
-            "title": "Double Tree by Hilton",
+            "title": "Crowne Plaza Hotel",
             "date": "2025-10-25",
-            "location": "Aqaba, Jordan",
+            "location": "Amman, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Elevators: 7. Speed up to 2.0 m/s.",
+            "description": "Vertical transportation reference. Origin: China. Elevators: 5. Floors (max): 14. Speed up to 2.5 m/s.",
             "tags": [
               "elevators",
-              "Hotel"
+              "Hotel",
+              "China"
             ],
             "links": {}
           }
         },
         {
           "id": "elev-hotels-007",
-          "name": "Kempinski Hotel",
-          "thumbnail": "https://picsum.photos/id/107/600/400",
-          "cover_alt": "Elevator reference – Kempinski Hotel",
-          "gallery": [],
+          "name": "Crowne Plaza Resort",
+          "thumbnail": "assets/images/projects/page_009_img_1.jpeg",
+          "cover_alt": "Photo of Crowne Plaza Resort",
+          "gallery": [
+            "assets/images/projects/page_009_img_1.jpeg"
+          ],
           "details": {
-            "title": "Kempinski Hotel",
+            "title": "Crowne Plaza Resort",
             "date": "2025-10-25",
-            "location": "Amman, Jordan",
+            "location": "Petra, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: Finland. Elevators: 11.",
+            "description": "Vertical transportation reference. Origin: China. Elevators: 6. Dumbwaiters: 1. Total VT units: 7. Speed up to 1.75 m/s.",
             "tags": [
               "elevators",
               "Hotel",
-              "Finland"
+              "China"
             ],
             "links": {}
           }
         },
         {
           "id": "elev-hotels-008",
-          "name": "Crowne Plaza Hotel",
-          "thumbnail": "https://picsum.photos/id/108/600/400",
-          "cover_alt": "Elevator reference – Crowne Plaza Hotel",
-          "gallery": [],
-          "details": {
-            "title": "Crowne Plaza Hotel",
-            "date": "2025-10-25",
-            "location": "Amman, Jordan",
-            "steps": [],
-            "description": "Vertical transportation reference. Origin: China. Elevators: 5. Speed up to 2.5 m/s.",
-            "tags": [
-              "elevators",
-              "Hotel",
-              "China"
-            ],
-            "links": {}
-          }
-        },
-        {
-          "id": "elev-hotels-009",
-          "name": "Crowne Plaza Resort",
-          "thumbnail": "https://picsum.photos/id/109/600/400",
-          "cover_alt": "Elevator reference – Crowne Plaza Resort",
-          "gallery": [],
-          "details": {
-            "title": "Crowne Plaza Resort",
-            "date": "2025-10-25",
-            "location": "Petra, Jordan",
-            "steps": [],
-            "description": "Vertical transportation reference. Origin: China. Elevators: 6.",
-            "tags": [
-              "elevators",
-              "Hotel",
-              "China"
-            ],
-            "links": {}
-          }
-        },
-        {
-          "id": "elev-hotels-010",
           "name": "Kempinski Hotel Ishtar",
-          "thumbnail": "https://picsum.photos/id/110/600/400",
-          "cover_alt": "Elevator reference – Kempinski Hotel Ishtar",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_010_img_1.jpeg",
+          "cover_alt": "Photo of Kempinski Hotel Ishtar",
+          "gallery": [
+            "assets/images/projects/page_010_img_1.jpeg"
+          ],
           "details": {
             "title": "Kempinski Hotel Ishtar",
             "date": "2025-10-25",
@@ -378,11 +182,13 @@
           }
         },
         {
-          "id": "elev-hotels-011",
+          "id": "elev-hotels-009",
           "name": "Marriot Hotel",
-          "thumbnail": "https://picsum.photos/id/111/600/400",
-          "cover_alt": "Elevator reference – Marriot Hotel",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_011_img_1.jpeg",
+          "cover_alt": "Photo of Marriot Hotel",
+          "gallery": [
+            "assets/images/projects/page_011_img_1.jpeg"
+          ],
           "details": {
             "title": "Marriot Hotel",
             "date": "2025-10-25",
@@ -398,11 +204,13 @@
           }
         },
         {
-          "id": "elev-hotels-012",
+          "id": "elev-hotels-010",
           "name": "Holiday Inn Hotel",
-          "thumbnail": "https://picsum.photos/id/112/600/400",
-          "cover_alt": "Elevator reference – Holiday Inn Hotel",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_012_img_1.png",
+          "cover_alt": "Photo of Holiday Inn Hotel",
+          "gallery": [
+            "assets/images/projects/page_012_img_1.png"
+          ],
           "details": {
             "title": "Holiday Inn Hotel",
             "date": "2025-10-25",
@@ -418,11 +226,13 @@
           }
         },
         {
-          "id": "elev-hotels-013",
+          "id": "elev-hotels-011",
           "name": "Dead Sea Spa Hotel",
-          "thumbnail": "https://picsum.photos/id/113/600/400",
-          "cover_alt": "Elevator reference – Dead Sea Spa Hotel",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_013_img_1.jpeg",
+          "cover_alt": "Photo of Dead Sea Spa Hotel",
+          "gallery": [
+            "assets/images/projects/page_013_img_1.jpeg"
+          ],
           "details": {
             "title": "Dead Sea Spa Hotel",
             "date": "2025-10-25",
@@ -438,11 +248,13 @@
           }
         },
         {
-          "id": "elev-hotels-014",
+          "id": "elev-hotels-012",
           "name": "Nabatean (Movenpick) Hotel",
-          "thumbnail": "https://picsum.photos/id/114/600/400",
-          "cover_alt": "Elevator reference – Nabatean (Movenpick) Hotel",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_014_img_1.png",
+          "cover_alt": "Photo of Nabatean (Movenpick) Hotel",
+          "gallery": [
+            "assets/images/projects/page_014_img_1.png"
+          ],
           "details": {
             "title": "Nabatean (Movenpick) Hotel",
             "date": "2025-10-25",
@@ -458,17 +270,19 @@
           }
         },
         {
-          "id": "elev-hotels-015",
+          "id": "elev-hotels-013",
           "name": "Hilton Hotel",
-          "thumbnail": "https://picsum.photos/id/115/600/400",
-          "cover_alt": "Elevator reference – Hilton Hotel",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_015_img_1.png",
+          "cover_alt": "Photo of Hilton Hotel",
+          "gallery": [
+            "assets/images/projects/page_015_img_1.png"
+          ],
           "details": {
             "title": "Hilton Hotel",
             "date": "2025-10-25",
             "location": "Amman, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: China. Elevators: 7. Speed up to 2.5 m/s.",
+            "description": "Vertical transportation reference. Origin: China. Elevators: 7. Floors (max): 21. Speed up to 2.5 m/s.",
             "tags": [
               "elevators",
               "Hotel",
@@ -478,17 +292,63 @@
           }
         },
         {
-          "id": "elev-hotels-016",
+          "id": "elev-hotels-014",
           "name": "Mövenpick Resort & Residences Aqaba",
-          "thumbnail": "https://picsum.photos/id/116/600/400",
-          "cover_alt": "Elevator reference – Mövenpick Resort & Residences Aqaba",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_016_img_1.jpeg",
+          "cover_alt": "Photo of Mövenpick Resort & Residences Aqaba",
+          "gallery": [
+            "assets/images/projects/page_016_img_1.jpeg"
+          ],
           "details": {
             "title": "Mövenpick Resort & Residences Aqaba",
             "date": "2025-10-25",
             "location": "Aqaba, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: China. Elevators: 14.",
+            "description": "Vertical transportation reference. Origin: China. Elevators: 7.",
+            "tags": [
+              "elevators",
+              "Hotel",
+              "China"
+            ],
+            "links": {}
+          }
+        },
+        {
+          "id": "elev-hotels-015",
+          "name": "InterContinental Hotel",
+          "thumbnail": "assets/images/projects/page_017_img_1.jpeg",
+          "cover_alt": "Photo of InterContinental Hotel",
+          "gallery": [
+            "assets/images/projects/page_017_img_1.jpeg"
+          ],
+          "details": {
+            "title": "InterContinental Hotel",
+            "date": "2025-10-25",
+            "location": "Aqaba, Jordan",
+            "steps": [],
+            "description": "Vertical transportation reference. Origin: Finland. Elevators: 14. Dumbwaiters: 4. Total VT units: 18.",
+            "tags": [
+              "elevators",
+              "Hotel",
+              "Finland"
+            ],
+            "links": {}
+          }
+        },
+        {
+          "id": "elev-hotels-016",
+          "name": "Landmark Hotel",
+          "thumbnail": "assets/images/projects/page_018_img_1.png",
+          "cover_alt": "Photo of Landmark Hotel",
+          "gallery": [
+            "assets/images/projects/page_018_img_1.png"
+          ],
+          "details": {
+            "title": "Landmark Hotel",
+            "date": "2025-10-25",
+            "location": "Amman, Jordan",
+            "steps": [],
+            "description": "Vertical transportation reference. Origin: China. Elevators: 7. Speed up to 2.0 m/s.",
             "tags": [
               "elevators",
               "Hotel",
@@ -499,56 +359,18 @@
         },
         {
           "id": "elev-hotels-017",
-          "name": "InterContinental Hotel",
-          "thumbnail": "https://picsum.photos/id/117/600/400",
-          "cover_alt": "Elevator reference – InterContinental Hotel",
-          "gallery": [],
-          "details": {
-            "title": "InterContinental Hotel",
-            "date": "2025-10-25",
-            "location": "Aqaba, Jordan",
-            "steps": [],
-            "description": "Vertical transportation reference. Origin: Finland. Elevators: 7. Speed up to 2.0 m/s.",
-            "tags": [
-              "elevators",
-              "Hotel",
-              "Finland"
-            ],
-            "links": {}
-          }
-        },
-        {
-          "id": "elev-hotels-018",
-          "name": "Landmark Hotel",
-          "thumbnail": "https://picsum.photos/id/118/600/400",
-          "cover_alt": "Elevator reference – Landmark Hotel",
-          "gallery": [],
-          "details": {
-            "title": "Landmark Hotel",
-            "date": "2025-10-25",
-            "location": "Amman, Jordan",
-            "steps": [],
-            "description": "Vertical transportation reference. Origin: China.",
-            "tags": [
-              "elevators",
-              "Hotel",
-              "China"
-            ],
-            "links": {}
-          }
-        },
-        {
-          "id": "elev-hotels-019",
           "name": "Jeddah Homes Boutique Hotel",
-          "thumbnail": "https://picsum.photos/id/119/600/400",
-          "cover_alt": "Elevator reference – Jeddah Homes Boutique Hotel",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_019_img_1.jpeg",
+          "cover_alt": "Photo of Jeddah Homes Boutique Hotel",
+          "gallery": [
+            "assets/images/projects/page_019_img_1.jpeg"
+          ],
           "details": {
             "title": "Jeddah Homes Boutique Hotel",
             "date": "2025-10-25",
             "location": "Amman, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: Italy. Elevators: 3. Speed up to 1.75 m/s.",
+            "description": "Vertical transportation reference. Origin: Italy. Elevators: 3. Floors (max): 11. Speed up to 1.75 m/s.",
             "tags": [
               "elevators",
               "Hotel",
@@ -558,11 +380,13 @@
           }
         },
         {
-          "id": "elev-hotels-020",
+          "id": "elev-hotels-018",
           "name": "Jerusalem International Hotel",
-          "thumbnail": "https://picsum.photos/id/120/600/400",
-          "cover_alt": "Elevator reference – Jerusalem International Hotel",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_020_img_1.png",
+          "cover_alt": "Photo of Jerusalem International Hotel",
+          "gallery": [
+            "assets/images/projects/page_020_img_1.png"
+          ],
           "details": {
             "title": "Jerusalem International Hotel",
             "date": "2025-10-25",
@@ -581,20 +405,44 @@
     },
     {
       "id": "elev-mixed-use",
-      "name": "Elevators – Mixed Use",
+      "name": "Mixed Use",
       "projects": [
         {
-          "id": "elev-mixed-use-002",
+          "id": "elev-mixed-use-001",
           "name": "Abdali Gateway",
-          "thumbnail": "https://picsum.photos/id/102/600/400",
-          "cover_alt": "Elevator reference – Abdali Gateway",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_021_img_1.png",
+          "cover_alt": "Photo of Abdali Gateway",
+          "gallery": [
+            "assets/images/projects/page_021_img_1.png"
+          ],
           "details": {
             "title": "Abdali Gateway",
             "date": "2025-10-25",
             "location": "Amman, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: China. Elevators: 11. Speed up to 3.0 m/s.",
+            "description": "Vertical transportation reference. Origin: China. Elevators: 11. Floors (max): 28. Speed up to 3.0 m/s.",
+            "tags": [
+              "elevators",
+              "Multi use",
+              "China"
+            ],
+            "links": {}
+          }
+        },
+        {
+          "id": "elev-mixed-use-002",
+          "name": "W Amman hotel",
+          "thumbnail": "assets/images/projects/page_022_img_1.png",
+          "cover_alt": "Photo of W Amman hotel",
+          "gallery": [
+            "assets/images/projects/page_022_img_1.png"
+          ],
+          "details": {
+            "title": "W Amman hotel",
+            "date": "2025-10-25",
+            "location": "Amman, Jordan",
+            "steps": [],
+            "description": "Vertical transportation reference. Origin: China. Elevators: 23. Dumbwaiters: 1. Scissor Platform: 2. Total VT units: 26. Floors (max): 49. Speed up to 5.0 m/s.",
             "tags": [
               "elevators",
               "Multi use",
@@ -605,30 +453,12 @@
         },
         {
           "id": "elev-mixed-use-003",
-          "name": "W Amman hotel",
-          "thumbnail": "https://picsum.photos/id/103/600/400",
-          "cover_alt": "Elevator reference – W Amman hotel",
-          "gallery": [],
-          "details": {
-            "title": "W Amman hotel",
-            "date": "2025-10-25",
-            "location": "Amman, Jordan",
-            "steps": [],
-            "description": "Vertical transportation reference. Origin: China. Elevators: 23. Speed up to 5.0 m/s.",
-            "tags": [
-              "elevators",
-              "Multi use",
-              "China"
-            ],
-            "links": {}
-          }
-        },
-        {
-          "id": "elev-mixed-use-025",
           "name": "The Boulevard–Abdali",
-          "thumbnail": "https://picsum.photos/id/125/600/400",
-          "cover_alt": "Elevator reference – The Boulevard–Abdali",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_023_img_1.jpeg",
+          "cover_alt": "Photo of The Boulevard–Abdali",
+          "gallery": [
+            "assets/images/projects/page_023_img_1.jpeg"
+          ],
           "details": {
             "title": "The Boulevard–Abdali",
             "date": "2025-10-25",
@@ -646,21 +476,123 @@
       ]
     },
     {
-      "id": "elev-retail-malls",
-      "name": "Elevators – Retail & Malls",
+      "id": "elev-public-transportation",
+      "name": "Public Transportation",
       "projects": [
         {
-          "id": "elev-retail-and-malls-026",
+          "id": "elev-public-transportation-001",
+          "name": "Bus Rapid Transit (BRT Package12) / Sweileh Terminal",
+          "thumbnail": "assets/images/projects/page_024_img_1.png",
+          "cover_alt": "Photo of Bus Rapid Transit (BRT Package12) / Sweileh Terminal",
+          "gallery": [
+            "assets/images/projects/page_024_img_1.png"
+          ],
+          "details": {
+            "title": "Bus Rapid Transit (BRT Package12) / Sweileh Terminal",
+            "date": "2025-10-25",
+            "location": "Amman, Jordan",
+            "steps": [],
+            "description": "Vertical transportation reference. Origin: Finland. Elevators: 3. Indoor Escalators: 16.",
+            "tags": [
+              "elevators",
+              "Public Transportation",
+              "Finland"
+            ],
+            "links": {}
+          }
+        },
+        {
+          "id": "elev-public-transportation-002",
+          "name": "Amman BRT – Package 1 of 5 (Tareq–Ain Ghazal Link)",
+          "thumbnail": "assets/images/projects/page_025_img_1.jpeg",
+          "cover_alt": "Photo of Amman BRT – Package 1 of 5 (Tareq–Ain Ghazal Link)",
+          "gallery": [
+            "assets/images/projects/page_025_img_1.jpeg"
+          ],
+          "details": {
+            "title": "Amman BRT – Package 1 of 5 (Tareq–Ain Ghazal Link)",
+            "date": "2025-10-25",
+            "location": "Amman, Jordan",
+            "steps": [],
+            "description": "Vertical transportation reference. Origin: Finland. Elevators: 8. Outdoor Escalators: 12.",
+            "tags": [
+              "elevators",
+              "Public Transportation",
+              "Finland"
+            ],
+            "links": {}
+          }
+        },
+        {
+          "id": "elev-public-transportation-003",
+          "name": "Amman BRT – Package 2 (Tareq–Ain Ghazal, Prince Faisal Station)",
+          "thumbnail": "assets/images/projects/page_026_img_1.jpeg",
+          "cover_alt": "Photo of Amman BRT – Package 2 (Tareq–Ain Ghazal, Prince Faisal Station)",
+          "gallery": [
+            "assets/images/projects/page_026_img_1.jpeg"
+          ],
+          "details": {
+            "title": "Amman BRT – Package 2 (Tareq–Ain Ghazal, Prince Faisal Station)",
+            "date": "2025-10-25",
+            "location": "Amman, Jordan",
+            "steps": [],
+            "description": "Vertical transportation reference. Origin: Finland. Elevators: 3. Outdoor Escalators: 6.",
+            "tags": [
+              "elevators",
+              "Public Transportation",
+              "Finland"
+            ],
+            "links": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "elev-airports",
+      "name": "Airports",
+      "projects": [
+        {
+          "id": "elev-airports-001",
+          "name": "Queen Alia International Airport / Expansion",
+          "thumbnail": "assets/images/projects/page_027_img_1.jpeg",
+          "cover_alt": "Photo of Queen Alia International Airport / Expansion",
+          "gallery": [
+            "assets/images/projects/page_027_img_1.jpeg"
+          ],
+          "details": {
+            "title": "Queen Alia International Airport / Expansion",
+            "date": "2025-10-25",
+            "location": "Amman, Jordan",
+            "steps": [],
+            "description": "Vertical transportation reference. Origin: China. Phase 1: Elevators: 27, Escalators: 18, Total VT units: 45. Phase 2: Elevators: 15, Escalators: 18, Inno Tracks: 10, Total units: 43. Speed up to 1.6 m/s.",
+            "tags": [
+              "elevators",
+              "Airport",
+              "China"
+            ],
+            "links": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "elev-retail-malls",
+      "name": "Retail & Malls",
+      "projects": [
+        {
+          "id": "elev-retail-malls-001",
           "name": "Abdali Mall",
-          "thumbnail": "https://picsum.photos/id/126/600/400",
-          "cover_alt": "Elevator reference – Abdali Mall",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_028_img_1.jpeg",
+          "cover_alt": "Photo of Abdali Mall",
+          "gallery": [
+            "assets/images/projects/page_028_img_1.jpeg"
+          ],
           "details": {
             "title": "Abdali Mall",
             "date": "2025-10-25",
             "location": "Amman, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: China. Elevators: 29.",
+            "description": "Vertical transportation reference. Origin: China. Elevators: 29. Escalators: 50. Ramps: 2. Total VT units: 81.",
             "tags": [
               "elevators",
               "Retail",
@@ -670,17 +602,19 @@
           }
         },
         {
-          "id": "elev-retail-and-malls-027",
+          "id": "elev-retail-malls-002",
           "name": "Swefieh Village",
-          "thumbnail": "https://picsum.photos/id/127/600/400",
-          "cover_alt": "Elevator reference – Swefieh Village",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_029_img_1.jpeg",
+          "cover_alt": "Photo of Swefieh Village",
+          "gallery": [
+            "assets/images/projects/page_029_img_1.jpeg"
+          ],
           "details": {
             "title": "Swefieh Village",
             "date": "2025-10-25",
             "location": "Amman, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: Italy / China.",
+            "description": "Vertical transportation reference. Elevators: 4 (Italy). Outdoor Escalators: 4 (China). Ramps: 4. Total VT units: 12.",
             "tags": [
               "elevators",
               "Retail",
@@ -690,17 +624,19 @@
           }
         },
         {
-          "id": "elev-retail-and-malls-028",
+          "id": "elev-retail-malls-003",
           "name": "Golden Gate",
-          "thumbnail": "https://picsum.photos/id/128/600/400",
-          "cover_alt": "Elevator reference – Golden Gate",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_030_img_1.jpeg",
+          "cover_alt": "Photo of Golden Gate",
+          "gallery": [
+            "assets/images/projects/page_030_img_1.jpeg"
+          ],
           "details": {
             "title": "Golden Gate",
             "date": "2025-10-25",
             "location": "Amman, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: Finland / China.",
+            "description": "Vertical transportation reference. Elevators: 15 (Finland). Escalators: 8 (China). Travelators: 4 (China). Total VT units: 27. Travel up to 42 m.",
             "tags": [
               "elevators",
               "Retail",
@@ -710,17 +646,19 @@
           }
         },
         {
-          "id": "elev-retail-and-malls-029",
+          "id": "elev-retail-malls-004",
           "name": "The Fountain Mall",
-          "thumbnail": "https://picsum.photos/id/129/600/400",
-          "cover_alt": "Elevator reference – The Fountain Mall",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_031_img_1.png",
+          "cover_alt": "Photo of The Fountain Mall",
+          "gallery": [
+            "assets/images/projects/page_031_img_1.png"
+          ],
           "details": {
             "title": "The Fountain Mall",
             "date": "2025-10-25",
             "location": "Aqaba, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: China. Elevators: 5.",
+            "description": "Vertical transportation reference. Origin: China. Elevators: 5. Escalators: 4.",
             "tags": [
               "elevators",
               "Retail",
@@ -730,17 +668,19 @@
           }
         },
         {
-          "id": "elev-retail-and-malls-030",
+          "id": "elev-retail-malls-005",
           "name": "Sea Mall",
-          "thumbnail": "https://picsum.photos/id/130/600/400",
-          "cover_alt": "Elevator reference – Sea Mall",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_032_img_1.jpeg",
+          "cover_alt": "Photo of Sea Mall",
+          "gallery": [
+            "assets/images/projects/page_032_img_1.jpeg"
+          ],
           "details": {
             "title": "Sea Mall",
             "date": "2025-10-25",
             "location": "Aqaba, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: China. Elevators: 6.",
+            "description": "Vertical transportation reference. Origin: China. Elevators: 6. Escalators: 6.",
             "tags": [
               "elevators",
               "Retail",
@@ -750,17 +690,19 @@
           }
         },
         {
-          "id": "elev-retail-and-malls-031",
+          "id": "elev-retail-malls-006",
           "name": "IKEA",
-          "thumbnail": "https://picsum.photos/id/131/600/400",
-          "cover_alt": "Elevator reference – IKEA",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_033_img_1.jpeg",
+          "cover_alt": "Photo of IKEA",
+          "gallery": [
+            "assets/images/projects/page_033_img_1.jpeg"
+          ],
           "details": {
             "title": "IKEA",
             "date": "2025-10-25",
             "location": "Amman, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: Finland / China.",
+            "description": "Vertical transportation reference. Elevators: 11 (Finland). Escalators: 2 (China). Ramps: 1 (China). Total VT units: 14. Speed up to 0.5 m/s.",
             "tags": [
               "elevators",
               "Retail",
@@ -770,37 +712,19 @@
           }
         },
         {
-          "id": "elev-retail-and-malls-032",
+          "id": "elev-retail-malls-007",
           "name": "Mecca Plaza",
-          "thumbnail": "https://picsum.photos/id/132/600/400",
-          "cover_alt": "Elevator reference – Mecca Plaza",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_034_img_1.jpeg",
+          "cover_alt": "Photo of Mecca Plaza",
+          "gallery": [
+            "assets/images/projects/page_034_img_1.jpeg"
+          ],
           "details": {
             "title": "Mecca Plaza",
             "date": "2025-10-25",
             "location": "Amman, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: China. Elevators: 12.",
-            "tags": [
-              "elevators",
-              "Retail",
-              "China"
-            ],
-            "links": {}
-          }
-        },
-        {
-          "id": "elev-retail-and-malls-033",
-          "name": "City Mall and Carrefour",
-          "thumbnail": "https://picsum.photos/id/133/600/400",
-          "cover_alt": "Elevator reference – City Mall and Carrefour",
-          "gallery": [],
-          "details": {
-            "title": "City Mall and Carrefour",
-            "date": "2025-10-25",
-            "location": "Amman, Jordan",
-            "steps": [],
-            "description": "Vertical transportation reference. Origin: Finland / Germany. Elevators: 16.",
+            "description": "Vertical transportation reference. Elevators: 16 (Finland). Escalators: 6 (Germany). Total VT units: 22. Speed up to 2.0 m/s.",
             "tags": [
               "elevators",
               "Retail",
@@ -810,11 +734,35 @@
           }
         },
         {
-          "id": "elev-retail-and-malls-034",
+          "id": "elev-retail-malls-008",
+          "name": "City Mall and Carrefour",
+          "thumbnail": "assets/images/projects/page_035_img_1.png",
+          "cover_alt": "Photo of City Mall and Carrefour",
+          "gallery": [
+            "assets/images/projects/page_035_img_1.png"
+          ],
+          "details": {
+            "title": "City Mall and Carrefour",
+            "date": "2025-10-25",
+            "location": "Amman, Jordan",
+            "steps": [],
+            "description": "Vertical transportation reference. Origin: China. Elevators: 12. Escalators: 18. Ramps: 14. Total VT units: 44.",
+            "tags": [
+              "elevators",
+              "Retail",
+              "China"
+            ],
+            "links": {}
+          }
+        },
+        {
+          "id": "elev-retail-malls-009",
           "name": "Garanti Outlet",
-          "thumbnail": "https://picsum.photos/id/134/600/400",
-          "cover_alt": "Elevator reference – Garanti Outlet",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_036_img_1.png",
+          "cover_alt": "Photo of Garanti Outlet",
+          "gallery": [
+            "assets/images/projects/page_036_img_1.png"
+          ],
           "details": {
             "title": "Garanti Outlet",
             "date": "2025-10-25",
@@ -830,17 +778,19 @@
           }
         },
         {
-          "id": "elev-retail-and-malls-035",
+          "id": "elev-retail-malls-010",
           "name": "Mark Down Outlet",
-          "thumbnail": "https://picsum.photos/id/135/600/400",
-          "cover_alt": "Elevator reference – Mark Down Outlet",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_037_img_1.jpeg",
+          "cover_alt": "Photo of Mark Down Outlet",
+          "gallery": [
+            "assets/images/projects/page_037_img_1.jpeg"
+          ],
           "details": {
             "title": "Mark Down Outlet",
             "date": "2025-10-25",
             "location": "Amman, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: Italy / China. Elevators: 4.",
+            "description": "Vertical transportation reference. Elevators: 4 (Italy). Escalators: 8 (China).",
             "tags": [
               "elevators",
               "Retail",
@@ -850,11 +800,13 @@
           }
         },
         {
-          "id": "elev-retail-and-malls-036",
+          "id": "elev-retail-malls-011",
           "name": "One Minute Outlet",
-          "thumbnail": "https://picsum.photos/id/136/600/400",
-          "cover_alt": "Elevator reference – One Minute Outlet",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_038_img_1.jpeg",
+          "cover_alt": "Photo of One Minute Outlet",
+          "gallery": [
+            "assets/images/projects/page_038_img_1.jpeg"
+          ],
           "details": {
             "title": "One Minute Outlet",
             "date": "2025-10-25",
@@ -872,90 +824,48 @@
       ]
     },
     {
-      "id": "elev-public-transportation",
-      "name": "Elevators – Public Transportation",
+      "id": "elev-residential",
+      "name": "Residential",
       "projects": [
         {
-          "id": "elev-public-transportation-021",
-          "name": "Bus Rapid Transit (BRT Package12) / Sweileh Terminal",
-          "thumbnail": "https://picsum.photos/id/121/600/400",
-          "cover_alt": "Elevator reference – Bus Rapid Transit (BRT Package12) / Sweileh Terminal",
-          "gallery": [],
+          "id": "elev-residential-001",
+          "name": "Ayla Beach Residences, B09–B19",
+          "thumbnail": "assets/images/projects/page_039_img_1.jpeg",
+          "cover_alt": "Photo of Ayla Beach Residences, B09–B19",
+          "gallery": [
+            "assets/images/projects/page_039_img_1.jpeg"
+          ],
           "details": {
-            "title": "Bus Rapid Transit (BRT Package12) / Sweileh Terminal",
+            "title": "Ayla Beach Residences, B09–B19",
             "date": "2025-10-25",
-            "location": "Amman, Jordan",
+            "location": "Aqaba, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: Finland. Elevators: 3.",
+            "description": "Vertical transportation reference. Origin: China. Elevators: 11.",
             "tags": [
               "elevators",
-              "Public Transportation",
-              "Finland"
+              "Residential / Housing",
+              "China"
             ],
             "links": {}
           }
         },
         {
-          "id": "elev-public-transportation-022",
-          "name": "Amman BRT – Package 1 of 5 (Tareq–Ain Ghazal Link)",
-          "thumbnail": "https://picsum.photos/id/122/600/400",
-          "cover_alt": "Elevator reference – Amman BRT – Package 1 of 5 (Tareq–Ain Ghazal Link)",
-          "gallery": [],
+          "id": "elev-residential-002",
+          "name": "CMW (Command Military Work) – Training City",
+          "thumbnail": "assets/images/projects/page_040_img_1.jpeg",
+          "cover_alt": "Photo of CMW (Command Military Work) – Training City",
+          "gallery": [
+            "assets/images/projects/page_040_img_1.jpeg"
+          ],
           "details": {
-            "title": "Amman BRT – Package 1 of 5 (Tareq–Ain Ghazal Link)",
+            "title": "CMW (Command Military Work) – Training City",
             "date": "2025-10-25",
-            "location": "Amman, Jordan",
+            "location": "Zarqa, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: Finland. Elevators: 8.",
+            "description": "Vertical transportation reference. Origin: China. Elevators: 99.",
             "tags": [
               "elevators",
-              "Public Transportation",
-              "Finland"
-            ],
-            "links": {}
-          }
-        },
-        {
-          "id": "elev-public-transportation-023",
-          "name": "Amman BRT – Package 2 (Tareq–Ain Ghazal, Prince Faisal Station)",
-          "thumbnail": "https://picsum.photos/id/123/600/400",
-          "cover_alt": "Elevator reference – Amman BRT – Package 2 (Tareq–Ain Ghazal, Prince Faisal Station)",
-          "gallery": [],
-          "details": {
-            "title": "Amman BRT – Package 2 (Tareq–Ain Ghazal, Prince Faisal Station)",
-            "date": "2025-10-25",
-            "location": "Amman, Jordan",
-            "steps": [],
-            "description": "Vertical transportation reference. Origin: Finland. Elevators: 6.",
-            "tags": [
-              "elevators",
-              "Public Transportation",
-              "Finland"
-            ],
-            "links": {}
-          }
-        }
-      ]
-    },
-    {
-      "id": "elev-airports",
-      "name": "Elevators – Airports",
-      "projects": [
-        {
-          "id": "elev-airports-024",
-          "name": "Queen Alia International Airport / Expansion",
-          "thumbnail": "https://picsum.photos/id/124/600/400",
-          "cover_alt": "Elevator reference – Queen Alia International Airport / Expansion",
-          "gallery": [],
-          "details": {
-            "title": "Queen Alia International Airport / Expansion",
-            "date": "2025-10-25",
-            "location": "Amman, Jordan",
-            "steps": [],
-            "description": "Vertical transportation reference. Origin: China. Elevators: 27.",
-            "tags": [
-              "elevators",
-              "Airport",
+              "Military Housing",
               "China"
             ],
             "links": {}
@@ -965,20 +875,22 @@
     },
     {
       "id": "elev-banks",
-      "name": "Elevators – Banks",
+      "name": "Banks",
       "projects": [
         {
-          "id": "elev-banks-039",
+          "id": "elev-banks-001",
           "name": "Jordan Ahli Bank New Headquarters",
-          "thumbnail": "https://picsum.photos/id/139/600/400",
-          "cover_alt": "Elevator reference – Jordan Ahli Bank New Headquarters",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_041_img_1.png",
+          "cover_alt": "Photo of Jordan Ahli Bank New Headquarters",
+          "gallery": [
+            "assets/images/projects/page_041_img_1.png"
+          ],
           "details": {
             "title": "Jordan Ahli Bank New Headquarters",
             "date": "2025-10-25",
             "location": "Amman, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: Finland. Elevators: 15.",
+            "description": "Vertical transportation reference. Elevators: 15 (Finland). Escalators: 2 (China). Turnstiles: 8. Destination Control System integrated with Turnstiles, Elevators & Monitoring System.",
             "tags": [
               "elevators",
               "Bank",
@@ -988,17 +900,19 @@
           }
         },
         {
-          "id": "elev-banks-040",
+          "id": "elev-banks-002",
           "name": "Bank Of Jordan",
-          "thumbnail": "https://picsum.photos/id/140/600/400",
-          "cover_alt": "Elevator reference – Bank Of Jordan",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_042_img_1.png",
+          "cover_alt": "Photo of Bank Of Jordan",
+          "gallery": [
+            "assets/images/projects/page_042_img_1.png"
+          ],
           "details": {
             "title": "Bank Of Jordan",
             "date": "2025-10-25",
             "location": "Amman, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: Finland. Elevators: 4.",
+            "description": "Vertical transportation reference. Elevators: 4 (Finland). Dumbwaiter: 2 (Germany). Destination Control System integrated with Turnstiles & Elevators. Speed up to 1.8 m/s.",
             "tags": [
               "elevators",
               "Bank",
@@ -1008,11 +922,13 @@
           }
         },
         {
-          "id": "elev-banks-041",
+          "id": "elev-banks-003",
           "name": "Jordan Kuwait Bank, Abdoun Branch",
-          "thumbnail": "https://picsum.photos/id/141/600/400",
-          "cover_alt": "Elevator reference – Jordan Kuwait Bank, Abdoun Branch",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_043_img_1.png",
+          "cover_alt": "Photo of Jordan Kuwait Bank, Abdoun Branch",
+          "gallery": [
+            "assets/images/projects/page_043_img_1.png"
+          ],
           "details": {
             "title": "Jordan Kuwait Bank, Abdoun Branch",
             "date": "2025-10-25",
@@ -1028,17 +944,19 @@
           }
         },
         {
-          "id": "elev-banks-042",
+          "id": "elev-banks-004",
           "name": "Arab Bank",
-          "thumbnail": "https://picsum.photos/id/142/600/400",
-          "cover_alt": "Elevator reference – Arab Bank",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_044_img_1.jpeg",
+          "cover_alt": "Photo of Arab Bank",
+          "gallery": [
+            "assets/images/projects/page_044_img_1.jpeg"
+          ],
           "details": {
             "title": "Arab Bank",
             "date": "2025-10-25",
             "location": "Aqaba, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: Finland. Elevators: 2.",
+            "description": "Vertical transportation reference. Origin: Finland. Phase 1: Elevators: 2, Floors (max): 10, Speed: 1.6 m/s. Phase 2: Elevators: 1, Speed: 1.0 m/s.",
             "tags": [
               "elevators",
               "Bank",
@@ -1048,17 +966,19 @@
           }
         },
         {
-          "id": "elev-banks-043",
+          "id": "elev-banks-005",
           "name": "Capital Bank Abdali",
-          "thumbnail": "https://picsum.photos/id/143/600/400",
-          "cover_alt": "Elevator reference – Capital Bank Abdali",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_045_img_1.png",
+          "cover_alt": "Photo of Capital Bank Abdali",
+          "gallery": [
+            "assets/images/projects/page_045_img_1.png"
+          ],
           "details": {
             "title": "Capital Bank Abdali",
             "date": "2025-10-25",
             "location": "Amman, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: China. Elevators: 1.",
+            "description": "Vertical transportation reference. Origin: China. Elevators: 4. Floors (max): 10. Speed up to 2.5 m/s.",
             "tags": [
               "elevators",
               "Bank",
@@ -1068,17 +988,19 @@
           }
         },
         {
-          "id": "elev-banks-044",
+          "id": "elev-banks-006",
           "name": "AJIB Bank",
-          "thumbnail": "https://picsum.photos/id/144/600/400",
-          "cover_alt": "Elevator reference – AJIB Bank",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_046_img_1.jpeg",
+          "cover_alt": "Photo of AJIB Bank",
+          "gallery": [
+            "assets/images/projects/page_046_img_1.jpeg"
+          ],
           "details": {
             "title": "AJIB Bank",
             "date": "2025-10-25",
             "location": "Amman, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: Finland. Elevators: 8.",
+            "description": "Vertical transportation reference. Origin: Finland. Elevators: 8. Floors (max): 22. Speed up to 2.5 m/s.",
             "tags": [
               "elevators",
               "Bank",
@@ -1088,17 +1010,19 @@
           }
         },
         {
-          "id": "elev-banks-045",
+          "id": "elev-banks-007",
           "name": "Islamic Bank",
-          "thumbnail": "https://picsum.photos/id/145/600/400",
-          "cover_alt": "Elevator reference – Islamic Bank",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_047_img_1.png",
+          "cover_alt": "Photo of Islamic Bank",
+          "gallery": [
+            "assets/images/projects/page_047_img_1.png"
+          ],
           "details": {
             "title": "Islamic Bank",
             "date": "2025-10-25",
             "location": "Amman, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: China. Elevators: 4.",
+            "description": "Vertical transportation reference. Origin: China. Elevators: 4. Dumbwaiters: 4. Total VT units: 8. Speed up to 1.6 m/s.",
             "tags": [
               "elevators",
               "Bank",
@@ -1108,17 +1032,19 @@
           }
         },
         {
-          "id": "elev-banks-046",
+          "id": "elev-banks-008",
           "name": "Safwa Islamic Bank",
-          "thumbnail": "https://picsum.photos/id/146/600/400",
-          "cover_alt": "Elevator reference – Safwa Islamic Bank",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_048_img_1.jpeg",
+          "cover_alt": "Photo of Safwa Islamic Bank",
+          "gallery": [
+            "assets/images/projects/page_048_img_1.jpeg"
+          ],
           "details": {
             "title": "Safwa Islamic Bank",
             "date": "2025-10-25",
             "location": "Amman, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: China. Elevators: 8.",
+            "description": "Vertical transportation reference. Origin: China. Elevators: 8. Floors (max): 22. Speed up to 2.5 m/s.",
             "tags": [
               "elevators",
               "Bank",
@@ -1131,20 +1057,22 @@
     },
     {
       "id": "elev-offices",
-      "name": "Elevators – Offices",
+      "name": "Offices",
       "projects": [
         {
-          "id": "elev-offices-047",
+          "id": "elev-offices-001",
           "name": "Zain (Head Office)",
-          "thumbnail": "https://picsum.photos/id/147/600/400",
-          "cover_alt": "Elevator reference – Zain (Head Office)",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_049_img_1.png",
+          "cover_alt": "Photo of Zain (Head Office)",
+          "gallery": [
+            "assets/images/projects/page_049_img_1.png"
+          ],
           "details": {
             "title": "Zain (Head Office)",
             "date": "2025-10-25",
             "location": "Amman, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: Finland. Elevators: 4.",
+            "description": "Vertical transportation reference. Origin: Finland. Elevators: 4. Speed up to 2.0 m/s.",
             "tags": [
               "elevators",
               "Office",
@@ -1154,17 +1082,19 @@
           }
         },
         {
-          "id": "elev-offices-048",
+          "id": "elev-offices-002",
           "name": "Royal Jordanian Headquarters",
-          "thumbnail": "https://picsum.photos/id/148/600/400",
-          "cover_alt": "Elevator reference – Royal Jordanian Headquarters",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_050_img_1.png",
+          "cover_alt": "Photo of Royal Jordanian Headquarters",
+          "gallery": [
+            "assets/images/projects/page_050_img_1.png"
+          ],
           "details": {
             "title": "Royal Jordanian Headquarters",
             "date": "2025-10-25",
             "location": "Amman, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: Finland. Elevators: 6.",
+            "description": "Vertical transportation reference. Origin: Finland. Elevators: 6. Floors (Max): 13. Speed (max): 2.0 m/s. Load (max): 1800 Kg. Destination Control System.",
             "tags": [
               "elevators",
               "Office",
@@ -1174,17 +1104,19 @@
           }
         },
         {
-          "id": "elev-offices-049",
+          "id": "elev-offices-003",
           "name": "Amazon Office",
-          "thumbnail": "https://picsum.photos/id/149/600/400",
-          "cover_alt": "Elevator reference – Amazon Office",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_051_img_1.png",
+          "cover_alt": "Photo of Amazon Office",
+          "gallery": [
+            "assets/images/projects/page_051_img_1.png"
+          ],
           "details": {
             "title": "Amazon Office",
             "date": "2025-10-25",
             "location": "Amman, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Elevators: 2.",
+            "description": "Vertical transportation reference. Elevators: 2. Dumbwaiters: 1. Total VT units: 3. Speed up to 2.0 m/s.",
             "tags": [
               "elevators",
               "Office"
@@ -1193,17 +1125,19 @@
           }
         },
         {
-          "id": "elev-offices-050",
+          "id": "elev-offices-004",
           "name": "Social Security Headquarters",
-          "thumbnail": "https://picsum.photos/id/100/600/400",
-          "cover_alt": "Elevator reference – Social Security Headquarters",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_052_img_1.jpeg",
+          "cover_alt": "Photo of Social Security Headquarters",
+          "gallery": [
+            "assets/images/projects/page_052_img_1.jpeg"
+          ],
           "details": {
             "title": "Social Security Headquarters",
             "date": "2025-10-25",
             "location": "Amman, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: Finland.",
+            "description": "Vertical transportation reference. Origin: Finland. Elevators: 4. Speed up to 2.0 m/s.",
             "tags": [
               "elevators",
               "Office",
@@ -1213,17 +1147,19 @@
           }
         },
         {
-          "id": "elev-offices-051",
+          "id": "elev-offices-005",
           "name": "King Hussein Business Park Infill Buildings",
-          "thumbnail": "https://picsum.photos/id/101/600/400",
-          "cover_alt": "Elevator reference – King Hussein Business Park Infill Buildings",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_053_img_1.png",
+          "cover_alt": "Photo of King Hussein Business Park Infill Buildings",
+          "gallery": [
+            "assets/images/projects/page_053_img_1.png"
+          ],
           "details": {
             "title": "King Hussein Business Park Infill Buildings",
             "date": "2025-10-25",
             "location": "Amman, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: China. Elevators: 4.",
+            "description": "Vertical transportation reference. Origin: China. Elevators: 10. Speed up to 1.75 m/s.",
             "tags": [
               "elevators",
               "Office",
@@ -1233,17 +1169,19 @@
           }
         },
         {
-          "id": "elev-offices-052",
+          "id": "elev-offices-006",
           "name": "Ibrahimeya Complex",
-          "thumbnail": "https://picsum.photos/id/102/600/400",
-          "cover_alt": "Elevator reference – Ibrahimeya Complex",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_054_img_1.png",
+          "cover_alt": "Photo of Ibrahimeya Complex",
+          "gallery": [
+            "assets/images/projects/page_054_img_1.png"
+          ],
           "details": {
             "title": "Ibrahimeya Complex",
             "date": "2025-10-25",
             "location": "Amman, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: Italy. Elevators: 3.",
+            "description": "Vertical transportation reference. Origin: Italy. Elevators: 3. Speed up to 1.75 m/s.",
             "tags": [
               "elevators",
               "Office",
@@ -1253,17 +1191,19 @@
           }
         },
         {
-          "id": "elev-offices-053",
+          "id": "elev-offices-007",
           "name": "Zarqa Chamber of Industry",
-          "thumbnail": "https://picsum.photos/id/103/600/400",
-          "cover_alt": "Elevator reference – Zarqa Chamber of Industry",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_055_img_1.png",
+          "cover_alt": "Photo of Zarqa Chamber of Industry",
+          "gallery": [
+            "assets/images/projects/page_055_img_1.png"
+          ],
           "details": {
             "title": "Zarqa Chamber of Industry",
             "date": "2025-10-25",
             "location": "Zarqa, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: Italy / China. Elevators: 2.",
+            "description": "Vertical transportation reference. Origin: Italy & China. Elevators: 2. Load (max): 1600 Kg.",
             "tags": [
               "elevators",
               "Office",
@@ -1273,17 +1213,19 @@
           }
         },
         {
-          "id": "elev-offices-054",
+          "id": "elev-offices-008",
           "name": "Dar Al Dawa Building",
-          "thumbnail": "https://picsum.photos/id/104/600/400",
-          "cover_alt": "Elevator reference – Dar Al Dawa Building",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_056_img_1.png",
+          "cover_alt": "Photo of Dar Al Dawa Building",
+          "gallery": [
+            "assets/images/projects/page_056_img_1.png"
+          ],
           "details": {
             "title": "Dar Al Dawa Building",
             "date": "2025-10-25",
             "location": "Amman, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: China. Elevators: 8.",
+            "description": "Vertical transportation reference. Origin: China. Elevators: 8. Speed up to 1.0 m/s.",
             "tags": [
               "elevators",
               "Office",
@@ -1293,17 +1235,19 @@
           }
         },
         {
-          "id": "elev-offices-055",
+          "id": "elev-offices-009",
           "name": "Delta Insurance",
-          "thumbnail": "https://picsum.photos/id/105/600/400",
-          "cover_alt": "Elevator reference – Delta Insurance",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_057_img_1.png",
+          "cover_alt": "Photo of Delta Insurance",
+          "gallery": [
+            "assets/images/projects/page_057_img_1.png"
+          ],
           "details": {
             "title": "Delta Insurance",
             "date": "2025-10-25",
             "location": "Amman, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: Finland. Elevators: 2.",
+            "description": "Vertical transportation reference. Origin: Finland. Elevators: 2. Speed up to 1.6 m/s.",
             "tags": [
               "elevators",
               "Office",
@@ -1313,17 +1257,19 @@
           }
         },
         {
-          "id": "elev-offices-056",
+          "id": "elev-offices-010",
           "name": "Justice Palace",
-          "thumbnail": "https://picsum.photos/id/106/600/400",
-          "cover_alt": "Elevator reference – Justice Palace",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_058_img_1.jpeg",
+          "cover_alt": "Photo of Justice Palace",
+          "gallery": [
+            "assets/images/projects/page_058_img_1.jpeg"
+          ],
           "details": {
             "title": "Justice Palace",
             "date": "2025-10-25",
             "location": "Amman, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: China. Elevators: 11.",
+            "description": "Vertical transportation reference. Origin: China. Elevators: 11. Speed up to 1.6 m/s.",
             "tags": [
               "elevators",
               "Office",
@@ -1333,17 +1279,19 @@
           }
         },
         {
-          "id": "elev-offices-057",
+          "id": "elev-offices-011",
           "name": "Riyadh Centre",
-          "thumbnail": "https://picsum.photos/id/107/600/400",
-          "cover_alt": "Elevator reference – Riyadh Centre",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_059_img_1.jpeg",
+          "cover_alt": "Photo of Riyadh Centre",
+          "gallery": [
+            "assets/images/projects/page_059_img_1.jpeg"
+          ],
           "details": {
             "title": "Riyadh Centre",
             "date": "2025-10-25",
             "location": "Amman, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: China. Elevators: 2.",
+            "description": "Vertical transportation reference. Origin: China. Elevators: 2. Speed up to 2.0 m/s.",
             "tags": [
               "elevators",
               "Office",
@@ -1353,17 +1301,19 @@
           }
         },
         {
-          "id": "elev-offices-058",
+          "id": "elev-offices-012",
           "name": "Jordan Tower",
-          "thumbnail": "https://picsum.photos/id/108/600/400",
-          "cover_alt": "Elevator reference – Jordan Tower",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_060_img_1.png",
+          "cover_alt": "Photo of Jordan Tower",
+          "gallery": [
+            "assets/images/projects/page_060_img_1.png"
+          ],
           "details": {
             "title": "Jordan Tower",
             "date": "2025-10-25",
             "location": "Amman, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: Finland. Elevators: 8.",
+            "description": "Vertical transportation reference. Origin: Finland. Elevators: 8. Speed up to 3.5 m/s.",
             "tags": [
               "elevators",
               "Office",
@@ -1373,17 +1323,19 @@
           }
         },
         {
-          "id": "elev-offices-059",
+          "id": "elev-offices-013",
           "name": "Jordan Trade Center",
-          "thumbnail": "https://picsum.photos/id/109/600/400",
-          "cover_alt": "Elevator reference – Jordan Trade Center",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_061_img_1.png",
+          "cover_alt": "Photo of Jordan Trade Center",
+          "gallery": [
+            "assets/images/projects/page_061_img_1.png"
+          ],
           "details": {
             "title": "Jordan Trade Center",
             "date": "2025-10-25",
             "location": "Amman, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Elevators: 4.",
+            "description": "Vertical transportation reference. Elevators: 4. Speed up to 1.6 m/s.",
             "tags": [
               "elevators",
               "Office"
@@ -1395,20 +1347,22 @@
     },
     {
       "id": "elev-hospitals",
-      "name": "Elevators – Hospitals",
+      "name": "Hospitals",
       "projects": [
         {
-          "id": "elev-hospitals-060",
+          "id": "elev-hospitals-001",
           "name": "King Hussein Cancer Center (KHCC)",
-          "thumbnail": "https://picsum.photos/id/110/600/400",
-          "cover_alt": "Elevator reference – King Hussein Cancer Center (KHCC)",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_062_img_1.jpeg",
+          "cover_alt": "Photo of King Hussein Cancer Center (KHCC)",
+          "gallery": [
+            "assets/images/projects/page_062_img_1.jpeg"
+          ],
           "details": {
             "title": "King Hussein Cancer Center (KHCC)",
             "date": "2025-10-25",
             "location": "Amman, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: Finland. Elevators: 30.",
+            "description": "Vertical transportation reference. Origin: Finland. Elevators: 30. Floors (max): 14. Speed up to 2.5 m/s.",
             "tags": [
               "elevators",
               "Medical",
@@ -1418,11 +1372,13 @@
           }
         },
         {
-          "id": "elev-hospitals-061",
+          "id": "elev-hospitals-002",
           "name": "KHCC – King Abdullah II ibn Al Hussein Building",
-          "thumbnail": "https://picsum.photos/id/111/600/400",
-          "cover_alt": "Elevator reference – KHCC – King Abdullah II ibn Al Hussein Building",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_063_img_1.png",
+          "cover_alt": "Photo of KHCC – King Abdullah II ibn Al Hussein Building",
+          "gallery": [
+            "assets/images/projects/page_063_img_1.png"
+          ],
           "details": {
             "title": "KHCC – King Abdullah II ibn Al Hussein Building",
             "date": "2025-10-25",
@@ -1438,17 +1394,19 @@
           }
         },
         {
-          "id": "elev-hospitals-062",
+          "id": "elev-hospitals-003",
           "name": "The Speciality Hospital Extension",
-          "thumbnail": "https://picsum.photos/id/112/600/400",
-          "cover_alt": "Elevator reference – The Speciality Hospital Extension",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_064_img_1.jpeg",
+          "cover_alt": "Photo of The Speciality Hospital Extension",
+          "gallery": [
+            "assets/images/projects/page_064_img_1.jpeg"
+          ],
           "details": {
             "title": "The Speciality Hospital Extension",
             "date": "2025-10-25",
             "location": "Amman, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: China. Elevators: 5.",
+            "description": "Vertical transportation reference. Origin: China. Elevators: 5. Loads up to 1600 kg.",
             "tags": [
               "elevators",
               "Medical",
@@ -1458,17 +1416,19 @@
           }
         },
         {
-          "id": "elev-hospitals-063",
+          "id": "elev-hospitals-004",
           "name": "Al Rasheed Hospital",
-          "thumbnail": "https://picsum.photos/id/113/600/400",
-          "cover_alt": "Elevator reference – Al Rasheed Hospital",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_065_img_1.jpeg",
+          "cover_alt": "Photo of Al Rasheed Hospital",
+          "gallery": [
+            "assets/images/projects/page_065_img_1.jpeg"
+          ],
           "details": {
             "title": "Al Rasheed Hospital",
             "date": "2025-10-25",
             "location": "Amman, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: China. Elevators: 9.",
+            "description": "Vertical transportation reference. Origin: China. Elevators: 9. Loads up to 2000 kg.",
             "tags": [
               "elevators",
               "Medical",
@@ -1478,17 +1438,19 @@
           }
         },
         {
-          "id": "elev-hospitals-064",
+          "id": "elev-hospitals-005",
           "name": "Al Amal Hospital",
-          "thumbnail": "https://picsum.photos/id/114/600/400",
-          "cover_alt": "Elevator reference – Al Amal Hospital",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_066_img_1.png",
+          "cover_alt": "Photo of Al Amal Hospital",
+          "gallery": [
+            "assets/images/projects/page_066_img_1.png"
+          ],
           "details": {
             "title": "Al Amal Hospital",
             "date": "2025-10-25",
             "location": "Amman, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: Italy / China. Elevators: 5.",
+            "description": "Vertical transportation reference. Origin: Italy & China. Elevators: 5. Loads up to 1600 kg.",
             "tags": [
               "elevators",
               "Medical",
@@ -1498,17 +1460,19 @@
           }
         },
         {
-          "id": "elev-hospitals-065",
+          "id": "elev-hospitals-006",
           "name": "Al Basheer Hospital",
-          "thumbnail": "https://picsum.photos/id/115/600/400",
-          "cover_alt": "Elevator reference – Al Basheer Hospital",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_067_img_1.jpeg",
+          "cover_alt": "Photo of Al Basheer Hospital",
+          "gallery": [
+            "assets/images/projects/page_067_img_1.jpeg"
+          ],
           "details": {
             "title": "Al Basheer Hospital",
             "date": "2025-10-25",
             "location": "Amman, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: China. Elevators: 10.",
+            "description": "Vertical transportation reference. Origin: China. Elevators: 10. Loads up to 2500 kg.",
             "tags": [
               "elevators",
               "Medical",
@@ -1518,17 +1482,19 @@
           }
         },
         {
-          "id": "elev-hospitals-066",
+          "id": "elev-hospitals-007",
           "name": "Istishari Hospital",
-          "thumbnail": "https://picsum.photos/id/116/600/400",
-          "cover_alt": "Elevator reference – Istishari Hospital",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_068_img_1.png",
+          "cover_alt": "Photo of Istishari Hospital",
+          "gallery": [
+            "assets/images/projects/page_068_img_1.png"
+          ],
           "details": {
             "title": "Istishari Hospital",
             "date": "2025-10-25",
             "location": "Amman, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: Finland. Elevators: 7.",
+            "description": "Vertical transportation reference. Origin: Finland. Elevators: 9. Dumbwaiters: 2. Total VT units: 11. Speed up to 2.0 m/s.",
             "tags": [
               "elevators",
               "Medical",
@@ -1538,17 +1504,19 @@
           }
         },
         {
-          "id": "elev-hospitals-067",
+          "id": "elev-hospitals-008",
           "name": "Jordan University Hospital",
-          "thumbnail": "https://picsum.photos/id/117/600/400",
-          "cover_alt": "Elevator reference – Jordan University Hospital",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_069_img_1.png",
+          "cover_alt": "Photo of Jordan University Hospital",
+          "gallery": [
+            "assets/images/projects/page_069_img_1.png"
+          ],
           "details": {
             "title": "Jordan University Hospital",
             "date": "2025-10-25",
             "location": "Amman, Jordan",
             "steps": [],
-            "description": "Vertical transportation reference. Origin: Finland. Elevators: 4.",
+            "description": "Vertical transportation reference. Origin: Finland. Elevators: 7. Bed Lifts: 4. Total VT units: 11. Speed up to 2.0 m/s.",
             "tags": [
               "elevators",
               "Medical",
@@ -1558,11 +1526,13 @@
           }
         },
         {
-          "id": "elev-hospitals-068",
+          "id": "elev-hospitals-009",
           "name": "AlSakha Hospital",
-          "thumbnail": "https://picsum.photos/id/118/600/400",
-          "cover_alt": "Elevator reference – AlSakha Hospital",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_070_img_1.png",
+          "cover_alt": "Photo of AlSakha Hospital",
+          "gallery": [
+            "assets/images/projects/page_070_img_1.png"
+          ],
           "details": {
             "title": "AlSakha Hospital",
             "date": "2025-10-25",
@@ -1578,11 +1548,13 @@
           }
         },
         {
-          "id": "elev-hospitals-069",
+          "id": "elev-hospitals-010",
           "name": "Islamic Hospital",
-          "thumbnail": "https://picsum.photos/id/119/600/400",
-          "cover_alt": "Elevator reference – Islamic Hospital",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_071_img_1.jpeg",
+          "cover_alt": "Photo of Islamic Hospital",
+          "gallery": [
+            "assets/images/projects/page_071_img_1.jpeg"
+          ],
           "details": {
             "title": "Islamic Hospital",
             "date": "2025-10-25",
@@ -1601,14 +1573,16 @@
     },
     {
       "id": "elev-schools",
-      "name": "Elevators – Schools",
+      "name": "Schools",
       "projects": [
         {
-          "id": "elev-schools-070",
+          "id": "elev-schools-001",
           "name": "Amman Academy School",
-          "thumbnail": "https://picsum.photos/id/120/600/400",
-          "cover_alt": "Elevator reference – Amman Academy School",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_072_img_1.jpeg",
+          "cover_alt": "Photo of Amman Academy School",
+          "gallery": [
+            "assets/images/projects/page_072_img_1.jpeg"
+          ],
           "details": {
             "title": "Amman Academy School",
             "date": "2025-10-25",
@@ -1624,11 +1598,13 @@
           }
         },
         {
-          "id": "elev-schools-071",
+          "id": "elev-schools-002",
           "name": "Amman Academy Theatre",
-          "thumbnail": "https://picsum.photos/id/121/600/400",
-          "cover_alt": "Elevator reference – Amman Academy Theatre",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_073_img_1.jpeg",
+          "cover_alt": "Photo of Amman Academy Theatre",
+          "gallery": [
+            "assets/images/projects/page_073_img_1.jpeg"
+          ],
           "details": {
             "title": "Amman Academy Theatre",
             "date": "2025-10-25",
@@ -1644,11 +1620,13 @@
           }
         },
         {
-          "id": "elev-schools-072",
+          "id": "elev-schools-003",
           "name": "Abdar Modular Secondary School",
-          "thumbnail": "https://picsum.photos/id/122/600/400",
-          "cover_alt": "Elevator reference – Abdar Modular Secondary School",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_074_img_1.png",
+          "cover_alt": "Photo of Abdar Modular Secondary School",
+          "gallery": [
+            "assets/images/projects/page_074_img_1.png"
+          ],
           "details": {
             "title": "Abdar Modular Secondary School",
             "date": "2025-10-25",
@@ -1664,11 +1642,13 @@
           }
         },
         {
-          "id": "elev-schools-073",
+          "id": "elev-schools-004",
           "name": "Rosary Sisters School",
-          "thumbnail": "https://picsum.photos/id/123/600/400",
-          "cover_alt": "Elevator reference – Rosary Sisters School",
-          "gallery": [],
+          "thumbnail": "assets/images/projects/page_075_img_1.jpeg",
+          "cover_alt": "Photo of Rosary Sisters School",
+          "gallery": [
+            "assets/images/projects/page_075_img_1.jpeg"
+          ],
           "details": {
             "title": "Rosary Sisters School",
             "date": "2025-10-25",
@@ -1679,52 +1659,6 @@
               "elevators",
               "Education",
               "Italy"
-            ],
-            "links": {}
-          }
-        }
-      ]
-    },
-    {
-      "id": "elev-residential",
-      "name": "Elevators – Residential",
-      "projects": [
-        {
-          "id": "elev-residential-037",
-          "name": "Ayla Beach Residences, B09–B19",
-          "thumbnail": "https://picsum.photos/id/137/600/400",
-          "cover_alt": "Elevator reference – Ayla Beach Residences, B09–B19",
-          "gallery": [],
-          "details": {
-            "title": "Ayla Beach Residences, B09–B19",
-            "date": "2025-10-25",
-            "location": "Aqaba, Jordan",
-            "steps": [],
-            "description": "Vertical transportation reference. Origin: China. Elevators: 11.",
-            "tags": [
-              "elevators",
-              "Residential / Housing",
-              "China"
-            ],
-            "links": {}
-          }
-        },
-        {
-          "id": "elev-residential-038",
-          "name": "CMW (Command Military Work) – Training City",
-          "thumbnail": "https://picsum.photos/id/138/600/400",
-          "cover_alt": "Elevator reference – CMW (Command Military Work) – Training City",
-          "gallery": [],
-          "details": {
-            "title": "CMW (Command Military Work) – Training City",
-            "date": "2025-10-25",
-            "location": "Zarqa, Jordan",
-            "steps": [],
-            "description": "Vertical transportation reference. Origin: China. Elevators: 99.",
-            "tags": [
-              "elevators",
-              "Military Housing",
-              "China"
             ],
             "links": {}
           }

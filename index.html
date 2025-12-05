@@ -15,7 +15,9 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -36,44 +38,110 @@
   ======================================================== -->
   <style>
     .bg-image-box {
-  background-image: url("assets/img/Slider/city-night-with-architecture-vibrant-lights.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 30px;
-  border-radius: 12px;
-  color: #fff;
-}
+      background-image: url("assets/img/Slider/city-night-with-architecture-vibrant-lights.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: 30px;
+      border-radius: 12px;
+      color: #fff;
+    }
 
-.bg-image-box2 {
-  background-image: url("assets/img/Slider/39453721_295158867959832_7863407398906494976_n.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 30px;
-  border-radius: 12px;
-  color: #fff;
-}
+    .bg-image-box2 {
+      background-image: url("assets/img/Slider/39453721_295158867959832_7863407398906494976_n.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: 30px;
+      border-radius: 12px;
+      color: #fff;
+    }
 
-.bg-image-box3 {
-  background-image: url("assets/img/Slider/477439782_1360360248273012_279365465347197072_n.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 30px;
-  border-radius: 12px;
-  color: #fff;
-}
-.bg-image-box4 {
-  background-image: url("assets/img/Slider/city-night-with-architecture-vibrant-lights.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 30px;
-  border-radius: 12px;
-  color: #fff;
-}
+    .bg-image-box3 {
+      background-image: url("assets/img/Slider/477439782_1360360248273012_279365465347197072_n.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: 30px;
+      border-radius: 12px;
+      color: #fff;
+    }
 
+    .bg-image-box4 {
+      background-image: url("assets/img/Slider/city-night-with-architecture-vibrant-lights.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: 30px;
+      border-radius: 12px;
+      color: #fff;
+    }
+
+    .hero-slider {
+      width: 100%;
+      height: 70vh;
+      min-height: 500px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-slider .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .hero-slider .swiper-slide {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-slider .swiper-slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .hero-slider .swiper-slide::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%);
+      pointer-events: none;
+    }
+
+    .hero-slider .swiper-pagination-bullet {
+      width: 12px;
+      height: 12px;
+      background: rgba(255, 255, 255, 0.5);
+      opacity: 1;
+    }
+
+    .hero-slider .swiper-pagination-bullet-active {
+      background: #fff;
+    }
+
+    .hero-slider .swiper-button-next,
+    .hero-slider .swiper-button-prev {
+      color: #fff;
+      width: 50px;
+      height: 50px;
+      background: rgba(0, 0, 0, 0.3);
+      border-radius: 50%;
+    }
+
+    .hero-slider .swiper-button-next::after,
+    .hero-slider .swiper-button-prev::after {
+      font-size: 20px;
+    }
+
+    .hero-slider .swiper-button-next:hover,
+    .hero-slider .swiper-button-prev:hover {
+      background: rgba(0, 0, 0, 0.5);
+    }
   </style>
 </head>
 
@@ -84,7 +152,8 @@
     <div class="topbar d-flex align-items-center">
       <div class="container d-flex justify-content-center justify-content-md-between">
         <div class="contact-info d-flex align-items-center">
-          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">contact@petralifts.com</a></i>
+          <i class="bi bi-envelope d-flex align-items-center"><a
+              href="mailto:contact@example.com">contact@petralifts.com</a></i>
           <i class="bi bi-phone d-flex align-items-center ms-4"><span>+962 6 464 5514</span></i>
         </div>
         <div class="social-links d-none d-md-flex align-items-center">
@@ -107,7 +176,8 @@
 
         <nav id="navmenu" class="navmenu">
           <ul>
-		  <li class="dropdown active"><a href="#hero"><span>Company</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <li class="dropdown active"><a href="#hero"><span>Company</span> <i
+                  class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
                 <li><a href="#mission">Mission</a></li>
                 <li><a href="#vision">Vission</a></li>
@@ -129,71 +199,97 @@
 
   <main class="main">
 
+    <!-- Hero Slider Section -->
+    <section class="hero-slider">
+      <div class="swiper init-swiper">
+        <script type="application/json" class="swiper-config">
+          {
+            "loop": true,
+            "speed": 800,
+            "autoplay": {
+              "delay": 4000,
+              "disableOnInteraction": false
+            },
+            "effect": "fade",
+            "fadeEffect": {
+              "crossFade": true
+            },
+            "pagination": {
+              "el": ".swiper-pagination",
+              "clickable": true
+            },
+            "navigation": {
+              "nextEl": ".swiper-button-next",
+              "prevEl": ".swiper-button-prev"
+            }
+          }
+        </script>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="assets/img/Slider/burj-khalifa-1.jpg" alt="Burj Khalifa">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/Slider/elevator-modern-1.jpg" alt="Modern Elevator">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/Slider/petronas-towers-1.jpg" alt="Petronas Towers">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/Slider/glass-elevator-1.jpg" alt="Glass Elevator">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/Slider/empire-state-1.jpg" alt="Empire State Building">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/Slider/elevator-interior-2.jpg" alt="Elevator Interior">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/Slider/shanghai-tower-1.jpg" alt="Shanghai Tower">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/Slider/skyscraper-night-1.jpg" alt="Skyscrapers at Night">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/Slider/dubai-skyline-1.jpg" alt="Dubai Skyline">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/Slider/luxury-elevator-1.jpg" alt="Luxury Elevator">
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section><!-- /Hero Slider Section -->
+
     <!-- Hero Section -->
     <section id="hero" class="hero section light-background">
 
       <div class="container">
         <div class="row gy-4">
-		<div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
             <img src="assets/img/CompanyMission.png" alt="" class="img-fluid">
           </div>
           <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
             <h1>Welcome to <span>Petra</span></h1>
-			<p>Petra Elevators Co. represents the perfect blend of seasoned distribution expertise and KONE’s state-of-the-art innovation. Our mission goes beyond simple distribution; it focuses on driving a new era of reliable and efficient vertical transportation solutions. With a team of over 100 employees in Jordan, all KONE-certified and factory-trained, Petra's staff brings extensive experience in the elevator and escalator industry. By combining KONE’s 100 years of innovation with our 35 years of local expertise, we are setting a new benchmark for elevator industry, designed to meet the demands of the Jordanian market</p>
-            </div>
+            <p>Petra Elevators Co. represents the perfect blend of seasoned distribution expertise and KONE’s
+              state-of-the-art innovation. Our mission goes beyond simple distribution; it focuses on driving a new era
+              of reliable and efficient vertical transportation solutions. With a team of over 100 employees in Jordan,
+              all KONE-certified and factory-trained, Petra's staff brings extensive experience in the elevator and
+              escalator industry. By combining KONE’s 100 years of innovation with our 35 years of local expertise, we
+              are setting a new benchmark for elevator industry, designed to meet the demands of the Jordanian market
+            </p>
           </div>
         </div>
+      </div>
       </div>
 
     </section><!-- /Hero Section -->
 
     <!-- Featured Services Section -->
-    <section id="featured-services" class="featured-services section">
+    
 
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
-  <div class="service-item position-relative bg-image-box">
-    <div class="icon"><i class="bi bi-activity icon"></i></div>
-    <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
-    <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-  </div>
-</div><!-- End Service Item -->
-
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item position-relative bg-image-box2">
-              <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
-              <h4><a href="" class="stretched-link">Sed ut perspici</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item position-relative bg-image-box3">
-              <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
-              <h4><a href="" class="stretched-link">Magni Dolores</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item position-relative bg-image-box4">
-              <div class="icon"><i class="bi bi-broadcast icon"></i></div>
-              <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-            </div>
-          </div><!-- End Service Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Featured Services Section -->
-
-
- <!-- Mission Section -->
+    <!-- Mission Section -->
     <section id="mission" class="about section light-background">
 
       <!-- Section Title -->
@@ -205,16 +301,20 @@
       <div class="container">
 
         <div class="row gy-3">
-		
-		<div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <img src="assets/img/CompanyMission.png" alt="" class="img-fluid">
           </div>
-		
+
           <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
             <div class="about-content ps-0 ps-lg-6">
               <p>
-                As the exclusive distributor for KONE in Jordan, we are committed to bringing the latest advancements in vertical transportation to the market. Our focus is on delivering reliable, high-performance solutions that embody KONE’s 
-				global reputation for safety, efficiency, and excellence. Every project we undertake reinforces our commitment to these values, guaranteeing that all installations adhere to the most rigorous technical and safety standards.
+                As the exclusive distributor for KONE in Jordan, we are committed to bringing the latest advancements in
+                vertical transportation to the market. Our focus is on delivering reliable, high-performance solutions
+                that embody KONE’s
+                global reputation for safety, efficiency, and excellence. Every project we undertake reinforces our
+                commitment to these values, guaranteeing that all installations adhere to the most rigorous technical
+                and safety standards.
               </p>
             </div>
 
@@ -224,8 +324,8 @@
       </div>
 
     </section><!-- /Mission Section -->
-	
-	 <!-- vission Section -->
+
+    <!-- vission Section -->
     <section id="vision" class="about section light-background">
 
       <!-- Section Title -->
@@ -237,15 +337,17 @@
       <div class="container">
 
         <div class="row gy-3">
-		
-		<div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <img src="assets/img/CompanyMission.png" alt="" class="img-fluid">
           </div>
-		
+
           <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
             <div class="about-content ps-0 ps-lg-6">
               <p>
-                Our vision is to set new standards in elevator and escalator installation and maintenance, optimizing performance and longevity to ensure customer satisfaction and trust, while driving excellence in Jordan’s vertical transportation industry.
+                Our vision is to set new standards in elevator and escalator installation and maintenance, optimizing
+                performance and longevity to ensure customer satisfaction and trust, while driving excellence in
+                Jordan’s vertical transportation industry.
               </p>
             </div>
 
@@ -278,7 +380,8 @@
             <div class="about-content ps-0 ps-lg-3">
               <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
               <p class="fst-italic">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore
                 magna aliqua.
               </p>
               <ul>
@@ -298,8 +401,10 @@
                 </li>
               </ul>
               <p>
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+                in
                 culpa qui officia deserunt mollit anim id est laborum
               </p>
             </div>
@@ -366,7 +471,7 @@
 
     </section><!-- /Clients Section -->
 
-   
+
 
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials section dark-background">
@@ -399,11 +504,13 @@
                 <h3>Saul Goodman</h3>
                 <h4>Ceo &amp; Founder</h4>
                 <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                  <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.
+                    Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -415,11 +522,13 @@
                 <h3>Sara Wilsson</h3>
                 <h4>Designer</h4>
                 <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram
+                    malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -431,11 +540,13 @@
                 <h3>Jena Karlis</h3>
                 <h4>Store Owner</h4>
                 <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
+                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis
+                    minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -447,11 +558,14 @@
                 <h3>Matt Brandon</h3>
                 <h4>Freelancer</h4>
                 <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
+                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim
+                    velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum
+                    veniam.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -463,11 +577,14 @@
                 <h3>John Larson</h3>
                 <h4>Entrepreneur</h4>
                 <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
+                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim
+                    culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum
+                    quid.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -481,7 +598,7 @@
 
     </section><!-- /Testimonials Section -->
 
- 
+
 
     <!-- References Section -->
     <section id="references" class="section">
@@ -564,7 +681,8 @@
               <div class="faq-item faq-active">
                 <h3>Non consectetur a erat nam at lectus urna duis?</h3>
                 <div class="faq-content">
-                  <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+                  <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur
+                    gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
@@ -572,7 +690,9 @@
               <div class="faq-item">
                 <h3>Feugiat scelerisque varius morbi enim nunc faucibus?</h3>
                 <div class="faq-content">
-                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet
+                    id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque
+                    elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
@@ -580,7 +700,10 @@
               <div class="faq-item">
                 <h3>Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
                 <div class="faq-content">
-                  <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
+                  <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar
+                    elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque
+                    eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis
+                    sed odio morbi quis</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
@@ -588,7 +711,9 @@
               <div class="faq-item">
                 <h3>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h3>
                 <div class="faq-content">
-                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet
+                    id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque
+                    elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
@@ -596,7 +721,9 @@
               <div class="faq-item">
                 <h3>Tempus quam pellentesque nec nam aliquam sem et tortor?</h3>
                 <div class="faq-content">
-                  <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in</p>
+                  <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in.
+                    Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est.
+                    Purus gravida quis blandit turpis cursus in</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
@@ -604,7 +731,8 @@
               <div class="faq-item">
                 <h3>Perspiciatis quod quo quos nulla quo illum ullam?</h3>
                 <div class="faq-content">
-                  <p>Enim ea facilis quaerat voluptas quidem et dolorem. Quis et consequatur non sed in suscipit sequi. Distinctio ipsam dolore et.</p>
+                  <p>Enim ea facilis quaerat voluptas quidem et dolorem. Quis et consequatur non sed in suscipit sequi.
+                    Distinctio ipsam dolore et.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
@@ -659,14 +787,18 @@
                 </div>
               </div><!-- End Info Item -->
 
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3385.15384107339!2d35.908560699999995!3d31.9567229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151ca07bc70999fb%3A0x4b248bb7a5a94da2!2sPetra%20Elevators%20Kone!5e0!3m2!1sar!2sjo!4v1764426150022!5m2!1sar!2sjo" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            
-            
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3385.15384107339!2d35.908560699999995!3d31.9567229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151ca07bc70999fb%3A0x4b248bb7a5a94da2!2sPetra%20Elevators%20Kone!5e0!3m2!1sar!2sjo!4v1764426150022!5m2!1sar!2sjo"
+                frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
             </div>
           </div>
 
           <div class="col-lg-7">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
+              data-aos-delay="200">
               <div class="row gy-4">
 
                 <div class="col-md-6">
@@ -761,7 +893,8 @@
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
   <div id="preloader">
