@@ -200,7 +200,7 @@ h6 {
 .header .branding {
   background-color: var(--background-color);
   min-height: 60px;
-  padding: 10px 0;
+  padding: 10px 0 0 0;
 }
 
 .header .logo {
@@ -208,8 +208,9 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 36px;
-  margin-right: 8px;
+  max-height: 50px;
+  height: auto;
+  width: auto;
 }
 
 .header .logo h1 {
@@ -789,6 +790,15 @@ section,
   padding: 60px 0;
   scroll-margin-top: 78px;
   overflow: clip;
+}
+
+.main {
+  margin-top: 0;
+}
+
+.hero-slider {
+  margin-top: 0;
+  padding-top: 0;
 }
 
 @media (max-width: 1199px) {
