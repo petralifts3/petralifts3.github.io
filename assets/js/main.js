@@ -272,6 +272,49 @@
       return `assets/img/projects/${projectId}/${path}`;
     }
 
+    function formatDescriptionAsBullets(description) {
+      if (!description) return '';
+      
+      let text = description.trim();
+      if (!text.endsWith('.')) {
+        text += '.';
+      }
+      
+      let parts = text.split(/\.\s+/).filter(p => p.trim().length > 0);
+      
+      const mergedParts = [];
+      for (let i = 0; i < parts.length; i++) {
+        const part = parts[i].trim();
+        if (i > 0 && /^[0-9]/.test(part) && /[0-9]$/.test(mergedParts[mergedParts.length - 1])) {
+          mergedParts[mergedParts.length - 1] += '. ' + part;
+        } else {
+          mergedParts.push(part);
+        }
+      }
+      
+      if (mergedParts.length <= 1) {
+        return description;
+      }
+      
+      const ul = document.createElement('ul');
+      ul.className = 'mb-0';
+      ul.style.listStyleType = 'disc';
+      ul.style.paddingLeft = '1.5rem';
+      ul.style.marginBottom = '0';
+      
+      mergedParts.forEach(part => {
+        if (part.length > 0) {
+          const li = document.createElement('li');
+          li.textContent = part;
+          li.style.marginBottom = '0.5rem';
+          li.style.lineHeight = '1.6';
+          ul.appendChild(li);
+        }
+      });
+      
+      return ul;
+    }
+
     // Normalize v1 (flat array) and v2 (nested categories with details)
     function normalize(payload) {
       // v2 detection: object with categories array
@@ -418,13 +461,21 @@
       const small = document.createElement('div');
       small.className = 'text-muted small mb-2';
       small.textContent = project.category;
-      const p = document.createElement('p');
-      p.className = 'card-text';
-      p.textContent = project.description || '';
 
       body.appendChild(h5);
       if (project.category) body.appendChild(small);
-      if (project.description) body.appendChild(p);
+      
+      if (project.description) {
+        const descContainer = document.createElement('div');
+        descContainer.className = 'card-text';
+        const bullets = formatDescriptionAsBullets(project.description);
+        if (bullets instanceof HTMLElement) {
+          descContainer.appendChild(bullets);
+        } else {
+          descContainer.textContent = bullets;
+        }
+        body.appendChild(descContainer);
+      }
 
       card.appendChild(img);
       card.appendChild(body);
@@ -452,7 +503,16 @@
         if (project.meta?.location) chunks.push(`Location: ${project.meta.location}`);
         metaEl.textContent = chunks.join(' | ');
 
-        document.getElementById('refModalDesc').textContent = project.description || '';
+        const descEl = document.getElementById('refModalDesc');
+        descEl.innerHTML = '';
+        if (project.description) {
+          const bullets = formatDescriptionAsBullets(project.description);
+          if (bullets instanceof HTMLElement) {
+            descEl.appendChild(bullets);
+          } else {
+            descEl.textContent = bullets;
+          }
+        }
 
         const tagsEl = document.getElementById('refModalTags');
         tagsEl.innerHTML = '';
